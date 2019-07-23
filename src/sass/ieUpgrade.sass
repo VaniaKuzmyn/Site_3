@@ -1,0 +1,45 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
+    .top
+        &-inner
+            padding-top: 10px
+    .tagline
+        &-outer
+            &_products
+                background: url("../images/bg/img1.png") no-repeat center center
+                background-size: cover
+        &-arrow
+            top: 50%
+            transform: tranlateY(-50%)
+    .product
+        &-desc
+            display: block
+    .social
+        &-img
+            width: auto
+            height: auto
+    .copyright
+        padding-top: 23px
+
+    .progress-bar
+        padding: 0
+        color: #009dda
+
+    .form
+        &-select::-ms-expand 
+            display: none
+    
+    .header
+        overflow: hidden
+        &-inner
+            display: block
+            padding-top: 200px
+            & .slick-dots
+                margin-left: 50%
+                transform: translateX(-50%)
+    
+    @media (max-width: 576px)
+        .header
+            &-inner
+                padding-top: 100px
+
+

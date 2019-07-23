@@ -1,0 +1,78 @@
+    /* Section-2 */
+.section-2
+    background: url('../images/bg/bg.png') no-repeat center center
+    background-size: cover
+    padding-bottom: 55px
+
+    /* Tagline Title */
+.tagline
+    &-outer
+        &_products
+            color: #fff
+            text-align: center
+            padding: 50px 0 80px
+            background: linear-gradient(-71deg, rgba(#00bff3, 0.8) 0%, rgba(#673ab7, 0.8) 51%, rgba(#503392, 0.5) 100%), url('../images/bg/img1.png') no-repeat center center 
+            background-size: cover
+            clip-path: polygon(100% 0, 100% 75%, 54% 75%, 50% 98%, 46% 75%, 0 75%, 0 0)
+            margin-bottom: 115px
+    &_products
+        font-size: 35px
+        letter-spacing: 1.4px
+        line-height: 24px
+
+    /* Our Products */
+.product
+    display: flex !important
+    align-items: center
+    margin-bottom: 100px
+    padding-right: 40px
+    &-desc
+        display: flex
+        flex-direction: column
+        justify-content: center
+        flex-shrink: 40
+    &-wrap
+        padding-bottom: 20px
+        & .slick-dots
+            display: flex
+            position: absolute
+            bottom: 0
+            left: 50%
+            transform: translateX(-50%)
+            & button
+                font-size: 0
+                border: none
+                background: none
+            & li
+                margin: 0 4px
+                color: rgba(#000, 0.5)
+                width: 7px
+                height: 7px
+                border: none
+                background-color: #d7d7d7
+                cursor: pointer
+                border-radius: 50%
+                box-sizing: border-box
+                &.slick-active
+                    background-color: #503392
+    &-img
+        &-wrap
+            width: 145px
+            height: 145px
+            margin-right: 31px
+    &-title
+        font-size: 24px
+        color: #232323
+        letter-spacing: 0.74px
+        text-transform: uppercase
+        margin-bottom: 4px
+        font-weight: 700
+    &-subtitle
+        color: #503392
+        font-weight: 700
+        margin-bottom: 10px
+    &-text
+        font-size: 14px
+        font-weight: 300
+        letter-spacing: 0.46px
+        line-height: 24.21px
